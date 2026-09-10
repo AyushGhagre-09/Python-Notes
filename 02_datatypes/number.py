@@ -67,3 +67,10 @@ print(True==1)
 print(False==0)
 print(True is 1)
 
+
+# Check built-in types(isinstance)
+print(isinstance("Hello", str))   # Returns True
+print(isinstance(42, int))        # Returns True
+print(isinstance([1, 2], dict))    # Returns False
+
+
