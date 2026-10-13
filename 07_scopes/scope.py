@@ -17,10 +17,12 @@ result=func2(100)
 print(result)
 
 
-def func3():
-    global x
-    x=12
-# func3()
+x = 10
+def update():
+    x = 20
+    print(x)
+
+update()
 print(x)
 
 # def f1():
