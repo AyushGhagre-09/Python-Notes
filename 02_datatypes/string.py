@@ -62,7 +62,7 @@ print("hello" in st)
 # s.isdigit()      # Only digits
 # s.isalnum()      # Letters and digits
 # s.isspace()      # Only spaces
-# s.center(10)     # Center align
+# s.center(10,"-")     # Center align
 # s.zfill(5)       # Pad with zeros
 # s.partition(x)   # Split into 3 parts
 # text = "apple-banana-orange"
