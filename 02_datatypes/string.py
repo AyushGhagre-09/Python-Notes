@@ -22,7 +22,7 @@ print(name.count("a"))
 
 chai_type="Masala"
 quantity=2
-order="I ordered {} cups of {} chai"
+order="I ordered {0} cups of {1} chai"
 print(order.format(quantity,chai_type))
 
 print(len(name))
