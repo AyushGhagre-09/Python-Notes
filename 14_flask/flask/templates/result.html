@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Final Results</h1>
+    <table border="2">
+      {% for key,value in results.items() %}
+      <tr>
+        <td>{{key}}</td>
+        <td>{{value}}</td>
+      </tr>
+
+      {% endfor %}
+    </table>
+    {% if results['res']=="PASSED" %}
+      <h1>You haved passed No improvement needed</h1>
+    {% else %}
+       <h1>You have failed need to work more</h1>
+    {% endif %}
+  </body>
+</html>
