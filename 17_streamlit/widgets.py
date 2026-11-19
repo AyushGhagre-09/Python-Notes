@@ -29,6 +29,6 @@ df.to_csv("./sample_data.csv")
 
 uploaded_file=st.file_uploader("Choose a CSV File",type="csv")
 if(uploaded_file is not None):
-  st.write(pd.read_csv(uploaded_file))
+  st.dataframe(pd.read_csv(uploaded_file))
   
 
