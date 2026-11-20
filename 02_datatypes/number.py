@@ -39,7 +39,7 @@ myFra=Fraction(2,7)
 print(myFra)
 
 
-setone={1,2,3,4,5}
+setone={1,2,3,4,5,10}
 print(setone&{1,3}) #intersection
 print(setone|{1,3,7}) #union
 print(setone-{1,2}) #difference
